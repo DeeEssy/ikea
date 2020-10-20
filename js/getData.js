@@ -6,7 +6,7 @@ const PARAM = {
 
 
 export const getData = {
-    url: '/database/database.json',
+    url: 'database/dataBase.json',
     async getData(url) {
         const responce = await fetch(url);
         if(!responce.ok) {
